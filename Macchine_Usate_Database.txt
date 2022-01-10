@@ -1,0 +1,14 @@
+nome tabella: Auto Usate
+
+colonne: 
+	--> id: primary key
+	--> marca: VARCHAR(15)
+	--> modello: VARCHAR(10)
+	--> colore: VARCHAR(20)
+	--> prima immatricolazione: DATE
+	--> chilometri percorsi: INT, UNIQUE
+	--> carburante: VARCHAR(15)
+	--> trasmissione: VARCHAR(10) 
+	--> proprietari precendenti: TINYINT, DEFAULT(0)
+	--> malfunzionamenti: VARCHAR(200), NULL
+	--> costo: INT, UNIQUE
